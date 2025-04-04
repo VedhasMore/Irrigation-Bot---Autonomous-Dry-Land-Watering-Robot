@@ -1,0 +1,39 @@
+[4.419s] Invoking command in '/home/ros/irrigation_ws/build/irrigation_bot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/irrigation_ws/build/irrigation_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ros/irrigation_ws/build/irrigation_bot/build
+[4.723s] running develop
+[4.865s] Removing /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation-bot.egg-link (link to .)
+[4.905s] Invoked command in '/home/ros/irrigation_ws/build/irrigation_bot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/irrigation_ws/build/irrigation_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ros/irrigation_ws/build/irrigation_bot/build
+[4.918s] Invoking command in '/home/ros/irrigation_ws/src/irrigation_bot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/irrigation_ws/build/irrigation_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/irrigation_bot build --build-base /home/ros/irrigation_ws/build/irrigation_bot/build install --record /home/ros/irrigation_ws/build/irrigation_bot/install.log --single-version-externally-managed install_data --force
+[5.235s] running egg_info
+[5.245s] writing ../../build/irrigation_bot/irrigation_bot.egg-info/PKG-INFO
+[5.279s] writing dependency_links to ../../build/irrigation_bot/irrigation_bot.egg-info/dependency_links.txt
+[5.304s] writing entry points to ../../build/irrigation_bot/irrigation_bot.egg-info/entry_points.txt
+[5.306s] writing requirements to ../../build/irrigation_bot/irrigation_bot.egg-info/requires.txt
+[5.311s] writing top-level names to ../../build/irrigation_bot/irrigation_bot.egg-info/top_level.txt
+[5.337s] reading manifest file '../../build/irrigation_bot/irrigation_bot.egg-info/SOURCES.txt'
+[5.339s] writing manifest file '../../build/irrigation_bot/irrigation_bot.egg-info/SOURCES.txt'
+[5.517s] running build
+[5.517s] running build_py
+[5.517s] copying irrigation_bot/irrigation_bot.py -> /home/ros/irrigation_ws/build/irrigation_bot/build/lib/irrigation_bot
+[5.562s] running install
+[5.569s] running install_lib
+[5.602s] creating /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation_bot
+[5.609s] copying /home/ros/irrigation_ws/build/irrigation_bot/build/lib/irrigation_bot/__init__.py -> /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation_bot
+[5.610s] copying /home/ros/irrigation_ws/build/irrigation_bot/build/lib/irrigation_bot/irrigation_bot.py -> /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation_bot
+[5.610s] byte-compiling /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation_bot/__init__.py to __init__.cpython-312.pyc
+[5.610s] byte-compiling /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation_bot/irrigation_bot.py to irrigation_bot.cpython-312.pyc
+[5.611s] running install_data
+[5.611s] copying resource/irrigation_bot -> /home/ros/irrigation_ws/install/irrigation_bot/share/ament_index/resource_index/packages
+[5.611s] copying package.xml -> /home/ros/irrigation_ws/install/irrigation_bot/share/irrigation_bot
+[5.611s] copying launch/irrigation_bot_launch.py -> /home/ros/irrigation_ws/install/irrigation_bot/share/irrigation_bot/launch
+[5.674s] copying launch/sim_launch.py -> /home/ros/irrigation_ws/install/irrigation_bot/share/irrigation_bot/launch
+[5.724s] copying urdf/irrigation_bot_clean.urdf -> /home/ros/irrigation_ws/install/irrigation_bot/share/irrigation_bot/urdf
+[5.724s] copying urdf/irrigation_bot.urdf -> /home/ros/irrigation_ws/install/irrigation_bot/share/irrigation_bot/urdf
+[5.724s] copying worlds/irrigation_world.sdf -> /home/ros/irrigation_ws/install/irrigation_bot/share/irrigation_bot/worlds
+[5.724s] copying config/irrigation_bot.rviz -> /home/ros/irrigation_ws/install/irrigation_bot/share/irrigation_bot/config
+[5.748s] copying config/irrigation_bot.rsp.yaml -> /home/ros/irrigation_ws/install/irrigation_bot/share/irrigation_bot/config
+[5.767s] running install_egg_info
+[5.809s] Copying ../../build/irrigation_bot/irrigation_bot.egg-info to /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation_bot-0.0.1-py3.12.egg-info
+[5.816s] running install_scripts
+[5.943s] Installing irrigation_bot script to /home/ros/irrigation_ws/install/irrigation_bot/lib/irrigation_bot
+[5.943s] writing list of installed files to '/home/ros/irrigation_ws/build/irrigation_bot/install.log'
+[5.989s] Invoked command in '/home/ros/irrigation_ws/src/irrigation_bot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/irrigation_ws/build/irrigation_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/irrigation_bot build --build-base /home/ros/irrigation_ws/build/irrigation_bot/build install --record /home/ros/irrigation_ws/build/irrigation_bot/install.log --single-version-externally-managed install_data --force

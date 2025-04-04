@@ -1,0 +1,24 @@
+running develop
+Removing /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation-bot.egg-link (link to .)
+running egg_info
+writing ../../build/irrigation_bot/irrigation_bot.egg-info/PKG-INFO
+writing dependency_links to ../../build/irrigation_bot/irrigation_bot.egg-info/dependency_links.txt
+writing entry points to ../../build/irrigation_bot/irrigation_bot.egg-info/entry_points.txt
+writing requirements to ../../build/irrigation_bot/irrigation_bot.egg-info/requires.txt
+writing top-level names to ../../build/irrigation_bot/irrigation_bot.egg-info/top_level.txt
+reading manifest file '../../build/irrigation_bot/irrigation_bot.egg-info/SOURCES.txt'
+writing manifest file '../../build/irrigation_bot/irrigation_bot.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation_bot
+copying /home/ros/irrigation_ws/build/irrigation_bot/build/lib/irrigation_bot/__init__.py -> /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation_bot
+copying /home/ros/irrigation_ws/build/irrigation_bot/build/lib/irrigation_bot/irrigation_bot.py -> /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation_bot
+byte-compiling /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation_bot/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation_bot/irrigation_bot.py to irrigation_bot.cpython-312.pyc
+running install_egg_info
+Copying ../../build/irrigation_bot/irrigation_bot.egg-info to /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation_bot-0.0.1-py3.12.egg-info
+running install_scripts
+Installing irrigation_bot script to /home/ros/irrigation_ws/install/irrigation_bot/lib/irrigation_bot
+writing list of installed files to '/home/ros/irrigation_ws/build/irrigation_bot/install.log'

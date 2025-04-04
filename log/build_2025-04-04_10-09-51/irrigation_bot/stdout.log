@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing irrigation_bot.egg-info/PKG-INFO
+writing dependency_links to irrigation_bot.egg-info/dependency_links.txt
+writing entry points to irrigation_bot.egg-info/entry_points.txt
+writing requirements to irrigation_bot.egg-info/requires.txt
+writing top-level names to irrigation_bot.egg-info/top_level.txt
+reading manifest file 'irrigation_bot.egg-info/SOURCES.txt'
+writing manifest file 'irrigation_bot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation-bot.egg-link (link to .)
+Installing irrigation_bot script to /home/ros/irrigation_ws/install/irrigation_bot/lib/irrigation_bot
+
+Installed /home/ros/irrigation_ws/build/irrigation_bot
+running symlink_data
+symbolically linking /home/ros/irrigation_ws/build/irrigation_bot/resource/irrigation_bot -> /home/ros/irrigation_ws/install/irrigation_bot/share/ament_index/resource_index/packages
+symbolically linking /home/ros/irrigation_ws/build/irrigation_bot/package.xml -> /home/ros/irrigation_ws/install/irrigation_bot/share/irrigation_bot
+creating /home/ros/irrigation_ws/install/irrigation_bot/share/irrigation_bot/launch

@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: irrigation-bot
+Version: 0.0.1
+Summary: Irrigation robot for detecting and watering dry areas
+Author: ros
+Author-email: your_email@example.com
+Maintainer: ros
+Maintainer-email: your_email@example.com
+License: MIT

@@ -1,0 +1,22 @@
+[2.851s] Invoking command in '/home/ros/irrigation_ws/src/irrigation_bot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/irrigation_ws/build/irrigation_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/irrigation_bot build --build-base /home/ros/irrigation_ws/build/irrigation_bot/build install --record /home/ros/irrigation_ws/build/irrigation_bot/install.log --single-version-externally-managed install_data
+[3.189s] running egg_info
+[3.198s] writing ../../build/irrigation_bot/irrigation_bot.egg-info/PKG-INFO
+[3.200s] writing dependency_links to ../../build/irrigation_bot/irrigation_bot.egg-info/dependency_links.txt
+[3.201s] writing entry points to ../../build/irrigation_bot/irrigation_bot.egg-info/entry_points.txt
+[3.202s] writing requirements to ../../build/irrigation_bot/irrigation_bot.egg-info/requires.txt
+[3.210s] writing top-level names to ../../build/irrigation_bot/irrigation_bot.egg-info/top_level.txt
+[3.240s] reading manifest file '../../build/irrigation_bot/irrigation_bot.egg-info/SOURCES.txt'
+[3.242s] writing manifest file '../../build/irrigation_bot/irrigation_bot.egg-info/SOURCES.txt'
+[3.242s] running build
+[3.242s] running build_py
+[3.242s] running install
+[3.264s] running install_lib
+[3.299s] running install_data
+[3.299s] copying urdf/irrigation_bot_clean.urdf -> /home/ros/irrigation_ws/install/irrigation_bot/share/irrigation_bot/urdf
+[3.299s] running install_egg_info
+[3.316s] removing '/home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation_bot-0.0.1-py3.12.egg-info' (and everything under it)
+[3.343s] Copying ../../build/irrigation_bot/irrigation_bot.egg-info to /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation_bot-0.0.1-py3.12.egg-info
+[3.343s] running install_scripts
+[3.453s] Installing irrigation_bot script to /home/ros/irrigation_ws/install/irrigation_bot/lib/irrigation_bot
+[3.453s] writing list of installed files to '/home/ros/irrigation_ws/build/irrigation_bot/install.log'
+[3.478s] Invoked command in '/home/ros/irrigation_ws/src/irrigation_bot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/irrigation_ws/build/irrigation_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/irrigation_bot build --build-base /home/ros/irrigation_ws/build/irrigation_bot/build install --record /home/ros/irrigation_ws/build/irrigation_bot/install.log --single-version-externally-managed install_data

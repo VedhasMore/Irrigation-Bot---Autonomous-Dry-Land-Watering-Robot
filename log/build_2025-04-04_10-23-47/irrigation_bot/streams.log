@@ -1,0 +1,26 @@
+[0.778s] Invoking command in '/home/ros/irrigation_ws/build/irrigation_bot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/irrigation_ws/build/irrigation_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros/irrigation_ws/build/irrigation_bot/build --no-deps symlink_data
+[1.078s] running develop
+[1.228s] running egg_info
+[1.242s] writing irrigation_bot.egg-info/PKG-INFO
+[1.242s] writing dependency_links to irrigation_bot.egg-info/dependency_links.txt
+[1.242s] writing entry points to irrigation_bot.egg-info/entry_points.txt
+[1.250s] writing requirements to irrigation_bot.egg-info/requires.txt
+[1.250s] writing top-level names to irrigation_bot.egg-info/top_level.txt
+[1.274s] reading manifest file 'irrigation_bot.egg-info/SOURCES.txt'
+[1.276s] writing manifest file 'irrigation_bot.egg-info/SOURCES.txt'
+[1.291s] running build_ext
+[1.291s] Creating /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation-bot.egg-link (link to .)
+[1.291s] Installing irrigation_bot script to /home/ros/irrigation_ws/install/irrigation_bot/lib/irrigation_bot
+[1.291s] 
+[1.291s] Installed /home/ros/irrigation_ws/build/irrigation_bot
+[1.291s] running symlink_data
+[1.291s] symbolically linking /home/ros/irrigation_ws/build/irrigation_bot/launch/irrigation_bot_launch.py -> /home/ros/irrigation_ws/install/irrigation_bot/share/irrigation_bot/launch
+[1.291s] symbolically linking /home/ros/irrigation_ws/build/irrigation_bot/launch/sim_launch.py -> /home/ros/irrigation_ws/install/irrigation_bot/share/irrigation_bot/launch
+[1.291s] creating /home/ros/irrigation_ws/install/irrigation_bot/share/irrigation_bot/urdf
+[1.291s] symbolically linking /home/ros/irrigation_ws/build/irrigation_bot/urdf/irrigation_bot.urdf -> /home/ros/irrigation_ws/install/irrigation_bot/share/irrigation_bot/urdf
+[1.292s] creating /home/ros/irrigation_ws/install/irrigation_bot/share/irrigation_bot/worlds
+[1.292s] symbolically linking /home/ros/irrigation_ws/build/irrigation_bot/worlds/irrigation_world.sdf -> /home/ros/irrigation_ws/install/irrigation_bot/share/irrigation_bot/worlds
+[1.292s] creating /home/ros/irrigation_ws/install/irrigation_bot/share/irrigation_bot/config
+[1.292s] symbolically linking /home/ros/irrigation_ws/build/irrigation_bot/config/irrigation_bot.rviz -> /home/ros/irrigation_ws/install/irrigation_bot/share/irrigation_bot/config
+[1.292s] symbolically linking /home/ros/irrigation_ws/build/irrigation_bot/config/irrigation_bot.rsp.yaml -> /home/ros/irrigation_ws/install/irrigation_bot/share/irrigation_bot/config
+[1.349s] Invoked command in '/home/ros/irrigation_ws/build/irrigation_bot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/irrigation_ws/build/irrigation_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros/irrigation_ws/build/irrigation_bot/build --no-deps symlink_data

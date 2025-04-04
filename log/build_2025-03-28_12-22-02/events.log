@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.000282] (irrigation_bot) JobQueued: {'identifier': 'irrigation_bot', 'dependencies': OrderedDict()}
+[0.000311] (irrigation_bot) JobStarted: {'identifier': 'irrigation_bot'}
+[0.100192] (-) TimerEvent: {}
+[0.202779] (-) TimerEvent: {}
+[0.303355] (-) TimerEvent: {}
+[0.404408] (-) TimerEvent: {}
+[0.505456] (-) TimerEvent: {}
+[0.605783] (-) TimerEvent: {}
+[0.707137] (-) TimerEvent: {}
+[0.807571] (-) TimerEvent: {}
+[0.910291] (-) TimerEvent: {}
+[1.014400] (-) TimerEvent: {}
+[1.120164] (-) TimerEvent: {}
+[1.220831] (-) TimerEvent: {}
+[1.321970] (-) TimerEvent: {}
+[1.422552] (-) TimerEvent: {}
+[1.523473] (-) TimerEvent: {}
+[1.624101] (-) TimerEvent: {}
+[1.727253] (-) TimerEvent: {}
+[1.828171] (-) TimerEvent: {}
+[1.929452] (-) TimerEvent: {}
+[2.029964] (-) TimerEvent: {}
+[2.130819] (-) TimerEvent: {}
+[2.234006] (-) TimerEvent: {}
+[2.338666] (-) TimerEvent: {}
+[2.438989] (-) TimerEvent: {}
+[2.539540] (-) TimerEvent: {}
+[2.643188] (-) TimerEvent: {}
+[2.743545] (-) TimerEvent: {}
+[2.844634] (-) TimerEvent: {}
+[2.946439] (-) TimerEvent: {}
+[3.053457] (-) TimerEvent: {}
+[3.156860] (-) TimerEvent: {}
+[3.259558] (-) TimerEvent: {}
+[3.360907] (-) TimerEvent: {}
+[3.463891] (-) TimerEvent: {}
+[3.564856] (-) TimerEvent: {}
+[3.665542] (-) TimerEvent: {}
+[3.766694] (-) TimerEvent: {}
+[3.867151] (-) TimerEvent: {}
+[3.968599] (-) TimerEvent: {}
+[4.069193] (-) TimerEvent: {}
+[4.169627] (-) TimerEvent: {}
+[4.270054] (-) TimerEvent: {}
+[4.375657] (-) TimerEvent: {}
+[4.479726] (-) TimerEvent: {}
+[4.580154] (-) TimerEvent: {}
+[4.680724] (-) TimerEvent: {}
+[4.782917] (-) TimerEvent: {}
+[4.884704] (-) TimerEvent: {}
+[4.985754] (-) TimerEvent: {}
+[5.088399] (-) TimerEvent: {}
+[5.188789] (-) TimerEvent: {}
+[5.291760] (-) TimerEvent: {}
+[5.393367] (-) TimerEvent: {}
+[5.494431] (-) TimerEvent: {}
+[5.594736] (-) TimerEvent: {}
+[5.700843] (-) TimerEvent: {}
+[5.801204] (-) TimerEvent: {}
+[5.901555] (-) TimerEvent: {}
+[5.953240] (irrigation_bot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/irrigation_bot', 'build', '--build-base', '/home/ros/irrigation_ws/build/irrigation_bot/build', 'install', '--record', '/home/ros/irrigation_ws/build/irrigation_bot/install.log', '--single-version-externally-managed'], 'cwd': '/home/ros/irrigation_ws/src/irrigation_bot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/ros/.gz/fuel/models:/usr/share/gz-sim:/home/ros/.gazebo/models:', 'USER': 'ros', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ros', 'OLDPWD': '/home/ros/irrigation_ws/src/irrigation_bot/launch', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2121', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ros/irrigation_ws/install', 'LOGNAME': 'ros', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ros', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/u70362200075:@/tmp/.ICE-unix/2068,unix/u70362200075:/tmp/.ICE-unix/2068', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7a0946fa_57e1_4bd0_8c03_5ffcdfd6d8ca', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W6R932', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ros/irrigation_ws/install/irrigation_bot:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ros/irrigation_ws/build/irrigation_bot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros/irrigation_ws/build/irrigation_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages:/home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[6.001779] (-) TimerEvent: {}
+[6.104533] (-) TimerEvent: {}
+[6.205847] (-) TimerEvent: {}
+[6.209920] (irrigation_bot) StdoutLine: {'line': b'running egg_info\n'}
+[6.218041] (irrigation_bot) StdoutLine: {'line': b'writing ../../build/irrigation_bot/irrigation_bot.egg-info/PKG-INFO\n'}
+[6.218177] (irrigation_bot) StdoutLine: {'line': b'writing dependency_links to ../../build/irrigation_bot/irrigation_bot.egg-info/dependency_links.txt\n'}
+[6.219000] (irrigation_bot) StdoutLine: {'line': b'writing entry points to ../../build/irrigation_bot/irrigation_bot.egg-info/entry_points.txt\n'}
+[6.219105] (irrigation_bot) StdoutLine: {'line': b'writing requirements to ../../build/irrigation_bot/irrigation_bot.egg-info/requires.txt\n'}
+[6.219142] (irrigation_bot) StdoutLine: {'line': b'writing top-level names to ../../build/irrigation_bot/irrigation_bot.egg-info/top_level.txt\n'}
+[6.285921] (irrigation_bot) StdoutLine: {'line': b"reading manifest file '../../build/irrigation_bot/irrigation_bot.egg-info/SOURCES.txt'\n"}
+[6.298281] (irrigation_bot) StdoutLine: {'line': b"writing manifest file '../../build/irrigation_bot/irrigation_bot.egg-info/SOURCES.txt'\n"}
+[6.298415] (irrigation_bot) StdoutLine: {'line': b'running build\n'}
+[6.298592] (irrigation_bot) StdoutLine: {'line': b'running build_py\n'}
+[6.298636] (irrigation_bot) StdoutLine: {'line': b'running install\n'}
+[6.302636] (irrigation_bot) StdoutLine: {'line': b'running install_lib\n'}
+[6.305926] (-) TimerEvent: {}
+[6.313899] (irrigation_bot) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.335066] (irrigation_bot) StdoutLine: {'line': b"removing '/home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation_bot-0.0.1-py3.12.egg-info' (and everything under it)\n"}
+[6.335209] (irrigation_bot) StdoutLine: {'line': b'Copying ../../build/irrigation_bot/irrigation_bot.egg-info to /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation_bot-0.0.1-py3.12.egg-info\n'}
+[6.351413] (irrigation_bot) StdoutLine: {'line': b'running install_scripts\n'}
+[6.406054] (-) TimerEvent: {}
+[6.434722] (irrigation_bot) StdoutLine: {'line': b'Installing irrigation_bot script to /home/ros/irrigation_ws/install/irrigation_bot/lib/irrigation_bot\n'}
+[6.434863] (irrigation_bot) StdoutLine: {'line': b"writing list of installed files to '/home/ros/irrigation_ws/build/irrigation_bot/install.log'\n"}
+[6.459985] (irrigation_bot) CommandEnded: {'returncode': 0}
+[6.506313] (-) TimerEvent: {}
+[6.606921] (-) TimerEvent: {}
+[6.673946] (irrigation_bot) JobEnded: {'identifier': 'irrigation_bot', 'rc': 0}
+[6.674910] (-) EventReactorShutdown: {}

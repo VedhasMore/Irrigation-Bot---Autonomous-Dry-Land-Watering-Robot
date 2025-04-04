@@ -1,0 +1,31 @@
+[3.387s] Invoking command in '/home/ros/irrigation_ws/src/irrigation_bot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/irrigation_ws/build/irrigation_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/irrigation_bot build --build-base /home/ros/irrigation_ws/build/irrigation_bot/build install --record /home/ros/irrigation_ws/build/irrigation_bot/install.log --single-version-externally-managed
+[3.537s] running egg_info
+[3.537s] creating ../../build/irrigation_bot/irrigation_bot.egg-info
+[3.547s] writing ../../build/irrigation_bot/irrigation_bot.egg-info/PKG-INFO
+[3.547s] writing dependency_links to ../../build/irrigation_bot/irrigation_bot.egg-info/dependency_links.txt
+[3.547s] writing entry points to ../../build/irrigation_bot/irrigation_bot.egg-info/entry_points.txt
+[3.547s] writing requirements to ../../build/irrigation_bot/irrigation_bot.egg-info/requires.txt
+[3.547s] writing top-level names to ../../build/irrigation_bot/irrigation_bot.egg-info/top_level.txt
+[3.547s] writing manifest file '../../build/irrigation_bot/irrigation_bot.egg-info/SOURCES.txt'
+[3.572s] reading manifest file '../../build/irrigation_bot/irrigation_bot.egg-info/SOURCES.txt'
+[3.572s] writing manifest file '../../build/irrigation_bot/irrigation_bot.egg-info/SOURCES.txt'
+[3.572s] running build
+[3.572s] running build_py
+[3.572s] creating /home/ros/irrigation_ws/build/irrigation_bot/build
+[3.572s] creating /home/ros/irrigation_ws/build/irrigation_bot/build/lib
+[3.572s] creating /home/ros/irrigation_ws/build/irrigation_bot/build/lib/irrigation_bot
+[3.572s] copying irrigation_bot/__init__.py -> /home/ros/irrigation_ws/build/irrigation_bot/build/lib/irrigation_bot
+[3.572s] copying irrigation_bot/irrigation_bot.py -> /home/ros/irrigation_ws/build/irrigation_bot/build/lib/irrigation_bot
+[3.572s] running install
+[3.581s] running install_lib
+[3.588s] creating /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation_bot
+[3.588s] copying /home/ros/irrigation_ws/build/irrigation_bot/build/lib/irrigation_bot/__init__.py -> /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation_bot
+[3.588s] copying /home/ros/irrigation_ws/build/irrigation_bot/build/lib/irrigation_bot/irrigation_bot.py -> /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation_bot
+[3.588s] byte-compiling /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation_bot/__init__.py to __init__.cpython-312.pyc
+[3.589s] byte-compiling /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation_bot/irrigation_bot.py to irrigation_bot.cpython-312.pyc
+[3.589s] running install_egg_info
+[3.600s] Copying ../../build/irrigation_bot/irrigation_bot.egg-info to /home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages/irrigation_bot-0.0.1-py3.12.egg-info
+[3.600s] running install_scripts
+[3.671s] Installing irrigation_bot script to /home/ros/irrigation_ws/install/irrigation_bot/lib/irrigation_bot
+[3.671s] writing list of installed files to '/home/ros/irrigation_ws/build/irrigation_bot/install.log'
+[3.700s] Invoked command in '/home/ros/irrigation_ws/src/irrigation_bot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/irrigation_ws/build/irrigation_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/irrigation_ws/install/irrigation_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/irrigation_bot build --build-base /home/ros/irrigation_ws/build/irrigation_bot/build install --record /home/ros/irrigation_ws/build/irrigation_bot/install.log --single-version-externally-managed

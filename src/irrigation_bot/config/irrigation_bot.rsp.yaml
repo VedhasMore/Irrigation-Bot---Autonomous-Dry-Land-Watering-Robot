@@ -1,0 +1,5 @@
+robot_description:
+  ros__parameters:
+    use_sim_time: true
+    robot_description: "<?xml version='1.0'?><robot name='irrigation_bot'> ... </robot>"
+

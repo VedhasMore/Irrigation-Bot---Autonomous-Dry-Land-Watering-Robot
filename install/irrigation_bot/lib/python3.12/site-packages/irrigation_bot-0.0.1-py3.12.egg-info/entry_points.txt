@@ -1,0 +1,2 @@
+[console_scripts]
+irrigation_bot = irrigation_bot.irrigation_bot:main

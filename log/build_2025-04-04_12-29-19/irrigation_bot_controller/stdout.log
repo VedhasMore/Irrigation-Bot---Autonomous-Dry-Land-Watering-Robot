@@ -1,0 +1,26 @@
+running egg_info
+creating ../../build/irrigation_bot_controller/irrigation_bot_controller.egg-info
+writing ../../build/irrigation_bot_controller/irrigation_bot_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/irrigation_bot_controller/irrigation_bot_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/irrigation_bot_controller/irrigation_bot_controller.egg-info/entry_points.txt
+writing requirements to ../../build/irrigation_bot_controller/irrigation_bot_controller.egg-info/requires.txt
+writing top-level names to ../../build/irrigation_bot_controller/irrigation_bot_controller.egg-info/top_level.txt
+writing manifest file '../../build/irrigation_bot_controller/irrigation_bot_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/irrigation_bot_controller/irrigation_bot_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/irrigation_bot_controller/irrigation_bot_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros/irrigation_ws/build/irrigation_bot_controller/build
+creating /home/ros/irrigation_ws/build/irrigation_bot_controller/build/lib
+creating /home/ros/irrigation_ws/build/irrigation_bot_controller/build/lib/irrigation_bot_controller
+copying irrigation_bot_controller/__init__.py -> /home/ros/irrigation_ws/build/irrigation_bot_controller/build/lib/irrigation_bot_controller
+running install
+running install_lib
+creating /home/ros/irrigation_ws/install/irrigation_bot_controller/lib/python3.12/site-packages/irrigation_bot_controller
+copying /home/ros/irrigation_ws/build/irrigation_bot_controller/build/lib/irrigation_bot_controller/__init__.py -> /home/ros/irrigation_ws/install/irrigation_bot_controller/lib/python3.12/site-packages/irrigation_bot_controller
+byte-compiling /home/ros/irrigation_ws/install/irrigation_bot_controller/lib/python3.12/site-packages/irrigation_bot_controller/__init__.py to __init__.cpython-312.pyc
+running install_egg_info
+Copying ../../build/irrigation_bot_controller/irrigation_bot_controller.egg-info to /home/ros/irrigation_ws/install/irrigation_bot_controller/lib/python3.12/site-packages/irrigation_bot_controller-0.0.0-py3.12.egg-info
+running install_scripts
+Installing simple_mover script to /home/ros/irrigation_ws/install/irrigation_bot_controller/lib/irrigation_bot_controller
+writing list of installed files to '/home/ros/irrigation_ws/build/irrigation_bot_controller/install.log'
