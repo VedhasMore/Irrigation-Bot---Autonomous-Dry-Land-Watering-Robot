@@ -1,0 +1,84 @@
+Project Structure:
+
+irrigation_ws/
+├── src/
+│   ├── irrigation_bot/
+│   │   ├── urdf/
+│   │   │   └── irrigation_bot.urdf         # Custom robot model with 4 wheels
+│   │   ├── worlds/
+│   │   │   └── irrigation_world.sdf        # Custom simulation environment
+│   │   └── launch/
+│   │       └── spawn.launch.py             # (Optional) Launch file to spawn bot
+│   └── ...
+
+___________________________________________________________________________________________
+
+Code Overview:
+
+The project is organized around a custom ROS 2 package called irrigation_bot, which defines the robot’s hardware, simulation world, and spawn behavior. Here's what each major component does:
+
+urdf/irrigation_bot.urdf
+
+    Describes the robot's physical structure in XML format.
+
+    Includes:
+
+        Base link
+
+        Four wheels (2 added manually)
+
+        Visual and collision elements
+
+        Joint definitions for mobility
+
+        Custom black material color for the robot
+
+ worlds/irrigation_world.sdf
+
+    Defines a custom simulation environment (farmland scene).
+
+    Designed to include gray-colored areas that represent dry land.
+
+    Compatible with Gazebo Harmonic for smooth spawning and interaction.
+
+ spawn.launch.py (optional/custom launch file)
+
+    ROS 2 launch script to:
+
+        Load the URDF model
+
+        Use robot_state_publisher
+
+        Spawn the robot into Gazebo
+
+        Can be expanded for sensors and control nodes
+
+ ROS Integration
+
+    Currently a static robot but prepared for expansion:
+
+        Add sensors like cameras or lidar
+
+        Connect controllers or navigation stack (Nav2)
+
+        Integrate custom Python nodes for irrigation behavior
+
+
+___________________________________________________________________________________________
+
+Future Plans:
+
+    Add camera and image processing to detect dry areas dynamically
+
+    Integrate navigation stack (Nav2)
+
+    Implement autonomous irrigation routine
+
+    Simulate real-time water dispersion effect
+
+___________________________________________________________________________________________
+
+Contributors:
+Vedhas More
+Dwayne Dias
+Om Herwadkar
